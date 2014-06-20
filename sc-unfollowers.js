@@ -88,7 +88,7 @@
                 if(tab[i].username == $('.userAvatarBadge__usernameLink')[key].text) 
                 {
                 found = true;
-                alert('hello stackoverflow')
+                //alert('hello stackoverflow')
                 }            
             }
             if (!found) {
