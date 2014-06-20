@@ -85,8 +85,11 @@
             for(var i = 0; i < tab.length; i++) {
                 
 
-                if(tab[i].username == $('.userAvatarBadge__usernameLink')[key].text) found = true;
-            
+                if(tab[i].username == $('.userAvatarBadge__usernameLink')[key].text) 
+                {
+                found = true;
+                alert('hello stackoverflow')
+                }            
             }
             if (!found) {
                 //$('.sc-truncate', value).append('<span style="color:#F33;size:small">not following back</span>');
