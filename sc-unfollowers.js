@@ -80,7 +80,7 @@
         var thearray = $('.userAvatarBadge__usernameLink').text();
 
         //$('.usersList__item').each(function(key, value) {
-        for (var j = 0; k < len($('.userList__item')),j++){
+        for (var j = 0; j < len($('.userList__item')),j++){
             var found = false;
             // browse list of followers
             for(var i = 0; i < tab.length; i++) {
