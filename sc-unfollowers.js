@@ -79,27 +79,30 @@
         
         var thearray = $('.userAvatarBadge__usernameLink').text();
 
-        $('.usersList__item').each(function(key, value) {
+        //$('.usersList__item').each(function(key, value) {
+        for (var j = 0; k < len($('.userList__item')),j++){
             var found = false;
             // browse list of followers
             for(var i = 0; i < tab.length; i++) {
 
                 
-                if($.trim(tab[i].username) == $.trim($('.userAvatarBadge__usernameLink')[key].text)) 
+                //if($.trim(tab[i].username) == $.trim($('.userAvatarBadge__usernameLink')[key].text)) 
+                if($.trim(tab[i].username) == $.trim($('.userAvatarBadge__usernameLink')[j].text)) 
                 {
                 found = true;
                 console.log("Found!")
                 //alert('hello stackoverflow')
                 console.log($.trim(tab[i].username));
-                console.log($.trim($('.userAvatarBadge__usernameLink')[key].text));
+                console.log($.trim($('.userAvatarBadge__usernameLink')[j].text));
                 //$('.sc-truncate', value).append('<span style="color:#F33;size:small">not following back</span>');
                 //$('.sc-button sc-button-follow sc-button-small sc-button-selected',value).click();
-                $('.userAvatarBadge__avatar')[key].style.width = "400px";
+                $('.userAvatarBadge__avatar')[j].style.width = "400px";
             
                 }            
             }
             
-        });
+        //});
+        }
 
     }
 
