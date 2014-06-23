@@ -92,7 +92,8 @@
                 found = true;
                 console.log("Found!")
                 //alert('hello stackoverflow')
-               
+                console.log($.trim(tab[i].username));
+                console.log($.trim($('.userAvatarBadge__usernameLink')[key].text));
                 //$('.sc-truncate', value).append('<span style="color:#F33;size:small">not following back</span>');
                 //$('.sc-button sc-button-follow sc-button-small sc-button-selected',value).click();
                 $('.userAvatarBadge__avatar')[key].style.width = "400px";
