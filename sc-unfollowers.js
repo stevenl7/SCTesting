@@ -90,7 +90,7 @@
                 if($.trim(tab[i].username) == $.trim($('.userAvatarBadge__usernameLink')[j].text)) 
                 {
                 found = true;
-                console.log("Found!")
+                console.log("Found!");
                 //alert('hello stackoverflow')
                 console.log($.trim(tab[i].username));
                 console.log($.trim($('.userAvatarBadge__usernameLink')[j].text));
