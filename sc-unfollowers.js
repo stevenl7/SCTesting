@@ -96,7 +96,7 @@
             if (!found) {
                 //$('.sc-truncate', value).append('<span style="color:#F33;size:small">not following back</span>');
                 //$('.sc-button sc-button-follow sc-button-small sc-button-selected',value).click();
-                $('.userAvatarBadge__avatar')[key].style.height = "400px";
+                $('.userAvatarBadge__avatar')[key].style.weight = "400px";
             }
         });
 
