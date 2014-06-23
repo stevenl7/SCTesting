@@ -87,7 +87,7 @@
                 console.log(tab[i].username);
                 console.log($('.userAvatarBadge__usernameLink')[key].text);
                 
-                if(trim(tab[i].username) == trim($('.userAvatarBadge__usernameLink')[key].text)) 
+                if($.trim(tab[i].username) == $.trim($('.userAvatarBadge__usernameLink')[key].text)) 
                 {
                 found = true;
                 console.log("Found!")
