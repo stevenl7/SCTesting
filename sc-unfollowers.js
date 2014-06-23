@@ -92,13 +92,14 @@
                 found = true;
                 console.log("Found!")
                 //alert('hello stackoverflow')
-                }            
-            }
-            if (!found) {
+               
                 //$('.sc-truncate', value).append('<span style="color:#F33;size:small">not following back</span>');
                 //$('.sc-button sc-button-follow sc-button-small sc-button-selected',value).click();
                 $('.userAvatarBadge__avatar')[key].style.width = "400px";
+            
+                }            
             }
+            
         });
 
     }
