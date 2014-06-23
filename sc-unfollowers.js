@@ -84,7 +84,9 @@
             // browse list of followers
             for(var i = 0; i < tab.length; i++) {
                 
-
+                console.log(tab[i].username);
+                console.log($('.userAvatarBadge__usernameLink')[key].text);
+                
                 if(tab[i].username == $('.userAvatarBadge__usernameLink')[key].text) 
                 {
                 found = true;
