@@ -96,7 +96,7 @@
                 console.log($.trim($('.userAvatarBadge__usernameLink')[j].text));
                 //$('.sc-truncate', value).append('<span style="color:#F33;size:small">not following back</span>');
                 //$('.sc-button sc-button-follow sc-button-small sc-button-selected',value).click();
-                $('.userAvatarBadge__avatar')[j].style.width = "400px";
+                $('.userAvatarBadge__avatar')[j+1].style.width = "400px";
             
                 }            
             }
